@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navBar{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.u-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 48px;
+}
+
+ul li{
+    list-style: none;
+
+}
+ul li a {
+    text-decoration: none;
+    padding: 0px 19px;
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    color:  white;
+    transition: color .3s ease;
+}
+
+ul li a:hover{
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.another-nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding-right: 20px;
+}
+
+.another-nav input{
+    padding: 6px 14px;
+    border-radius: 17px;
+    outline: none;
+    border: none; 
+}
+
+.search-btn{
+    background-color: white;
+    padding: 4px 13px; 
+    border-radius: 18px; 
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.search-btn:hover{
+    background: rgba(255, 255, 255, 0.767);
+}
+
+.nav-background{
+    background: rgba(0,0,0, 0.7) url(main_img.jpg);
+    background-size: cover;
+    background-blend-mode: darken; 
+}
+
+.first-section{
+    height: 100vh;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 65%;
+}
+
+.first-half{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-half{
+    width: 30%; 
+
+}
+
+.second-half img{
+    width: 80%; 
+    display: block;
+    margin: auto;
+}
+
+.bigText{
+    font-size: 38px;
+
+}
+
+.smallText{
+    font-size: 16px;
+    margin: 5px 0;
+
+}
+
+.btn{
+    padding: 8px 25px;
+    margin: 7px 3px;
+    border: 3px solid #0048ff;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn:hover{
+    background: none;
+    color: white;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.hr-line{
+    width: 75%;
+    margin: auto;
+}
+
+.sectionLeft{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 40px;
+}
+
+section .mainTag{
+    padding: 9px 0px;
+}
+
+section .subTag{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thumbnail img{
+    width: 220px;
+    border: 2px solid #0048ff;
+    border-radius: 17px;
+    margin-top: 7px;
+}
+
+.contact{
+    background-color: rgb(241 241 241);
+    height: 550px;
+}
+
+.text-innovate{
+    text-align: center;
+    padding: 14px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.form{
+    max-width: 442px;
+    margin: 12px auto;
+}
+
+.form-input{
+    width: 100%;
+    padding: 7px 3px;
+    margin: 13px 0;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    outline: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+
+.text-elaborate{
+    max-height: 190px;
+    max-width: 443px;
+}
+
+.submit-btn{
+    border: 2px solid grey;
+    border-radius: 7px;
+    padding: 9px 15px;
+    transition: background-color 0.4s ease;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.submit-btn:hover{
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+}
+
+.burger-btn{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 3px;
+}
+
+
+
+
+
